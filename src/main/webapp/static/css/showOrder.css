@@ -1,0 +1,177 @@
+.bread {
+	height: 40px;
+	line-height: 40px;
+	border-bottom: 1px solid #e5e6e6;
+	margin: 20px 0 30px 0;
+	padding: 0 10px;
+}
+
+.content {
+	width: 80%;
+	margin: 10px auto;
+	clear: both;
+}
+
+.replenish {
+	width: 70%;
+}
+
+.find_card {
+	background: #fff4ee none repeat scroll 0 0;
+	border: 1px solid #6FADAB;
+	border-radius: 15px;
+	color: #ff7f03;
+	font-family: 微软雅黑;
+	font-size: 18px;
+	height: 40px;
+	line-height: 40px;
+	padding: 0 10px;
+	text-align: center;
+	width: 80px;
+}
+
+.find_card a {
+	color: #6FADAB;
+}
+
+.header_center div {
+	display: inline-block;
+}
+
+.navigation {
+	font-size: 12px;
+	padding-left: 50px;
+}
+
+.navigation a:hover {
+	color: #46b448;
+}
+
+.nav_left {
+	margin-left: 20px;
+	float: left;
+}
+
+.order_mess {
+	float: left;
+	width: 76.5%;
+	margin-left: 10px;
+	;
+}
+
+.mess_top {
+	font-size: 16px;
+	font-weight: bold;
+	border: 1px solid #ddd;
+	height: 35px;
+	line-height: 35px;
+	padding-left: 15px;
+	background-color: #f7f7f7;
+	position: relative;
+}
+
+/*.mess_bottom {*/
+	/*margin-top: -10px;*/
+/*}*/
+
+.mess_bottom{
+	border:1px solid #ddd;
+	padding: 20px 40px;
+	font-family: Microsoft Yahei,Verdana,Arial;
+	font-size: 12px;
+}
+
+.orderbottom {
+	margin-top: 20px;
+}
+
+.foot {
+	clear: both;
+	position: relative;
+	top: 20px;
+}
+
+.layui-nav-item {
+	background-color: #808080!important;
+}
+
+.layui-nav-item a {
+	color: white !important;
+}
+
+/*
+.layui-nav-item a:hover {
+	background-color: #DEDEDE !important;
+}
+*/
+
+.div1{
+	height:40px;
+	line-height: 40px;
+}
+
+.span1{
+	display: inline-block;
+	width:100px;
+	text-align: right;
+}
+
+.div1 input[type="text"]{
+	width:120px;
+}
+
+#commit,#commit1{
+	margin: 10px 0 0 0px;
+	padding: 10px 20px;
+	color: white;
+	background-color: #46B448;
+	border: none;
+	border-radius: 5px;
+	box-shadow: 2px 2px 5px #444;
+	cursor: pointer;
+}
+
+.my-table tr:first-child td{
+	width:100px;
+	text-align: center;
+	border-bottom: 2px solid #ddd;
+}
+
+.my-table tr:nth-child(n+2) td{
+	border-top: 1px solid #ddd;
+}
+
+.my-table tr td{
+	height:30px;
+	line-height: 30px;
+}
+
+.mess_leave{
+	font-size: 16px;
+	font-weight: bold;
+	border: 1px solid #ddd;
+	height: 35px;
+	line-height: 35px;
+	padding-left: 15px;
+	background-color: #f7f7f7;
+	position: relative;
+}
+
+.send_mess{
+	border:1px solid #ddd;
+	padding: 20px 40px;
+	font-family: Microsoft Yahei,Verdana,Arial;
+	font-size: 12px;
+	overflow: hidden;
+}
+
+.save{
+	margin: 10px 40px 0 0px;
+	padding: 10px 30px;
+	color: white;
+	background-color: #46B448;
+	border: none;
+	border-radius: 5px;
+	box-shadow: 2px 2px 5px #444;
+	cursor: pointer;
+}

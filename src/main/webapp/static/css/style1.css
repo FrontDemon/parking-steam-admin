@@ -1,0 +1,152 @@
+/* reset */
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,dl,dt,dd,ol,nav ul,nav li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;font-size:100%;font:inherit;vertical-align:baseline;}
+article, aside, details, figcaption, figure,footer, header, hgroup, menu, nav, section {display: block;}
+ol,ul{list-style:none;margin:0px;padding:0px;}
+blockquote,q{quotes:none;}
+blockquote:before,blockquote:after,q:before,q:after{content:'';content:none;}
+table{border-collapse:collapse;border-spacing:0;}
+/* start editing from here */
+a{text-decoration:none;}
+.txt-rt{text-align:right;}/* text align right */
+.txt-lt{text-align:left;}/* text align left */
+.txt-center{text-align:center;}/* text align center */
+.float-rt{float:right;}/* float right */
+.float-lt{float:left;}/* float left */
+.clear{clear:both;}/* clear float */
+.pos-relative{position:relative;}/* Position Relative */
+.pos-absolute{position:absolute;}/* Position Absolute */
+.vertical-base{	vertical-align:baseline;}/* vertical align baseline */
+.vertical-top{	vertical-align:top;}/* vertical align top */
+nav.vertical ul li{	display:block;}/* vertical menu */
+nav.horizontal ul li{	display: inline-block;}/* horizontal menu */
+img{max-width:100%;}
+
+/*end reset*/
+html, body{
+	font-size: 100%;
+    font-family: 'Lato', sans-serif;
+    background: url(../img/bg_car.jpg) no-repeat 0px 0px;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -ms-background-size: cover;
+    background-attachment: fixed;
+}
+h1,h2,h3,h4,h5,h6,input,p,a,select{
+	font-family: 'Lato', sans-serif;
+	margin:0;
+}
+ul,label{
+	margin:0;
+	padding:0;
+}
+body a:hover,body a{
+	text-decoration:none;
+}
+/* main*/
+
+/*-- sign-up-form --*/
+.w3_agile_signup_form {
+    background: rgba(255, 255, 255, 0.3);
+    padding: 2em 2em;
+    text-align: center;
+    border: 45px solid rgba(0,0,0,0.3);
+    border-radius: 100%;
+    height: 530px;
+    width: 530px;
+    margin: 0 auto;
+}
+.w3_agile_signup_form input[type="text"], .w3_agile_signup_form input[type="password"], .w3_agile_signup_form input[type="email"] {
+    width: 92%;
+    padding: .8em;
+    font-size: 1em;
+    margin: .8em 0;
+    outline: none;
+    color: #212121;
+    border: 1px solid #212121;
+    letter-spacing: 1px;
+    text-align: center;
+    border-radius: 5px;
+    background: none;
+}
+::-webkit-input-placeholder{
+	color:#212121 !important;
+}
+.w3_agile_signup_form input[type="button"],.w3_agile_signup_form input[type="submit"], .toSignUp{
+    padding: 0.8em 0;
+    width: 100%;
+    text-align: center;
+    font-size: 1em;
+    margin-top: .5em;
+    border: none;
+    color: #fff;
+    letter-spacing: 5px;
+    cursor: pointer;
+    background:#ea9341;
+    border-radius: 5px;
+    font-weight: 600;
+    outline: none;
+}
+.w3_agile_signup_form input[type="submit"]:hover, .toSignUp:hover {
+    color: #fff;
+    background: #25333e;
+    transition: .5s all;
+	-webkit-transition: .5s all;
+    -moz-transition: .5s all;
+    -o-transition: .5s all;
+    -ms-transition: .5s all;
+}
+form.agileits_w3layouts_form {
+    padding: 0 4em;
+}
+.w3_agile_signup_form h1{
+	text-align:center;
+	font-size:1em;
+	color:#212121;
+	padding-bottom:.8em;
+	position:relative;
+	margin-bottom:1em;
+}
+.w3_agile_signup_form h1:after{
+	content: '';
+    background:#ea9341;
+    height: 2px;
+    width: 25%;
+    position: absolute;
+    bottom: 0%;
+    left: 38%;
+}
+
+
+
+/*--//signin-form--*/
+
+
+.w3layouts_main h1 {
+    color: #212121;
+    font-size: 2em;
+    font-weight: 700;
+    letter-spacing: 3px;
+    margin: 1em 0 0.5em;
+    text-align: center;
+    text-transform: uppercase;
+}
+.agileits_copyright p{
+	font-size: 1em;
+    color:#fff;
+    line-height: 1.8em;
+    padding: 0 1em;
+    text-transform: capitalize;
+	margin-top: 2em;
+	text-align: center;
+}
+.main .toSignUp {
+	display: block;
+	height: 20px;
+	width: 400px;
+	margin: 23px auto 0px;
+}
+.toSignUp a {
+	color: #fff;
+}

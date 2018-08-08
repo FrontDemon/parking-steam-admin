@@ -1,0 +1,19 @@
+.show-count{
+	display:inline-block;
+	float:right;
+} 
+#btn-search{
+	background:#5eb95e;
+	border-color:#5eb95e;
+	color:#fff;
+}
+#count{
+	font-family:"YaHei";
+	font-weight:bold;
+}
+.bg-1{
+	border-bottom: 1px #ddd solid;
+}
+.table td,.table th{
+	text-align: center;
+}
